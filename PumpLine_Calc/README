@@ -1,0 +1,12 @@
+# 🚰 PumpLine Calc
+
+**PumpLine Calc** is a Python-based engineering tool designed to simulate industrial fluid flow, compute piping friction losses, and determine pump operating points along with NPSH availability.
+
+## 📖 Overview
+This project bridges Fluid Mechanics and Unit Operations fundamentals with computational engineering. It calculates both major (distributed) and minor (localized) head losses in a piping network and solves for the system's operating point by intersecting system and pump performance curves.
+
+## ⚙️ Engineering Principles Covered
+- **Fluid Mechanics:** Reynolds Number ($Re$), Darcy-Weisbach equation, Swamee-Jain explicit formula for friction factor ($f$).
+- **Piping System Components:** Equivalent length and resistance coefficient ($K$-factor) methods for valves and fittings.
+- **Turbomachinery:** Polynomial curve fitting for centrifugal pumps and System-Pump curve intersection.
+- **Process Safety & Operation:** Net Positive Suction Head ($NPSH$) evaluation to avoid pump cavitation.
